@@ -1,27 +1,13 @@
-#!/bin/zsh
-
 # Push and pop directories on directory stack
 alias pu='pushd'
 alias po='popd'
 
-alias ss='thin --stats "/thin/stats" start'
-alias sg='ruby script/generate'
-alias sd='ruby script/destroy'
-alias sp='ruby script/plugin'
-alias ssp='ruby script/spec'
-alias rdbm='rake db:migrate'
-alias sc='ruby script/console'
-alias sd='ruby script/server --debugger'
-alias devlog='tail -f log/development.log'
-
 # Basic directory operations
-alias .='pwd'
 alias ...='cd ../..'
 alias -- -='cd -'
 
 # Super user
 alias _='sudo'
-alias ss='sudo su -'
 
 #alias g='grep -in'
 
@@ -31,13 +17,9 @@ alias history='fc -l 1'
 # List direcory contents
 alias lsa='ls -lah'
 alias l='ls -la'
-alias ll='ls -alr'
+alias ll='ls -l'
 alias sl=ls # often screw this up
 
-alias sgem='sudo gem'
-
-# Find ruby file
-alias rfind='find . -name *.rb | xargs grep -n'
 alias afind='ack-grep -il'
 
 # Git and svn mix

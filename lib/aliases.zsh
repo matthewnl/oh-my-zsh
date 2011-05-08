@@ -37,3 +37,5 @@ alias mr='mate CHANGELOG app config db lib public script spec test'
 #### Matthews stuff
 # Aspell
 alias scheck='aspell check -t'
+# OSX skim pdf-viewer
+alias skim='open -a Skim'

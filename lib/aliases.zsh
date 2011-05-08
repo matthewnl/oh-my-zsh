@@ -34,6 +34,8 @@ alias etts='mate app config lib db public script spec test vendor/plugins vendor
 # Editor Ruby file in TextMate
 alias mr='mate CHANGELOG app config db lib public script spec test'
 
+alias x=extract
+
 #### Matthews stuff
 # Aspell
 alias scheck='aspell check -t'

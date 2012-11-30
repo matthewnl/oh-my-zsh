@@ -41,3 +41,5 @@ alias x=extract
 alias scheck='aspell check -t'
 # OSX skim pdf-viewer
 alias skim='open -a Skim'
+# OSX Sublime text 2 editor, open a la textmate's mate
+alias sub='open -a Sublime\ Text\ 2'
